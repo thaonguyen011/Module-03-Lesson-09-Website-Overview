@@ -6,7 +6,7 @@
 </head>
 <body>
 <h1>Currency Converter</h1>
-<form action="${pageContext.request.contextPath}/convert" method="get">
+<form action="convert.jsp" method="get">
     <label>Rate: </label><br>
     <label>
         <input type="text" name="rate" placeholder="rate" value="22000">
